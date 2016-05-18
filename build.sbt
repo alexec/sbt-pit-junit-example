@@ -6,7 +6,7 @@ organization := "com.example"
 
 version := "1.0"
 
-scalaVersion := "2.11.8"
+crossScalaVersions := Seq("2.11.8")
 
 // JUnit
 testOptions += Tests.Argument(TestFrameworks.JUnit, "-v")
