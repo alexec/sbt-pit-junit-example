@@ -10,4 +10,9 @@ class DogTest {
     assert("Bark" == dog.vocalise)
   }
 
+  @Test
+  def waggingTail() = {
+    dog.wagTail()
+    assert(1 == dog.getNumWags)
+  }
 }
