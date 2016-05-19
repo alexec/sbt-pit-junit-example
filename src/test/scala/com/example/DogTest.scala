@@ -15,4 +15,9 @@ class DogTest {
     dog.wagTail()
     assert(1 == dog.getNumWags)
   }
+
+  @Test
+  def seeingRabbitCausedDogToBark() = {
+    assert("Bark" == dog.onRabbit())
+  }
 }
