@@ -17,4 +17,5 @@ libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
 // Pitest
 verbose := true
 timestampedReports := false
-
+coverageThreshold := 65
+mutationThreshold := 65
